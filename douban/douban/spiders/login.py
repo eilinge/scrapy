@@ -37,8 +37,8 @@ class LoginSpider(scrapy.Spider):
 
     #pdb.set_trace()
     login_url = 'http://www.douban.com'
-    user = '17601329166'
-    password = 'wcq159753?'
+    user = 'sssxxx'
+    password = 'xxxx'
 
     def start_requests(self):
         yield Request(self.login_url,callback=self.login,dont_filter=True)
